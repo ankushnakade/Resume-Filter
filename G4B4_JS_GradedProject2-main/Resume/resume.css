@@ -1,0 +1,160 @@
+body {
+	margin: 0;
+	padding: 15px;
+	height: 100vh;
+}
+
+/* navigate section */
+.navigate {
+	text-align: center;
+	height: 38px;
+	margin: 8px 0;
+}
+
+.navigate button {
+	width: 63px;
+	float: left;
+	padding: 5px;
+}
+
+/* navigate section - header */
+#previous {
+	margin-left: 31%;
+}
+
+#next {
+	margin-left: 1%;
+}
+
+#search-box {
+	width: 250px;
+	height: 20px;
+	margin: 0 10px;
+	padding: 3px 5px;
+	float: left;
+	margin-left: 2%;
+}
+
+.icon {
+	height: 70px;
+	width: 70px;
+}
+
+/* error-container section */
+#error-container {
+	margin: 90px auto;
+	height: 130px;
+	display: none;
+	text-align: center;
+	position: relative;
+}
+
+#error-container .icon {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 28%;
+}
+
+#error-container span {
+	display: inline-block;
+	font-size: 25px;
+	margin-top: 18px;
+	margin-left: 175px;
+	text-align: center;
+}
+
+
+/* resume-template section */
+#resume-template {
+	width: 80%;
+	margin: 0 10%;
+	padding: 0px;
+	border: 3px solid black;
+}
+
+/* resume-template section  - header */
+header {
+	text-align: center;
+	background-color: #d1f6f0;
+	padding: 10px;
+	margin: 0px;
+	position: relative;
+}
+
+header .icon {
+	position: absolute;
+	top: 20px;
+	right: 10%;
+}
+
+header p {
+	margin-bottom: 0;
+	font-weight: 600;
+}
+
+/* flexbox div */
+#flexbox {
+	column-gap: 10px;
+	margin: 0 10px;
+	display: flex;
+	flex-direction: row;
+	flex-flow: nowrap;
+	align-items: baseline;
+}
+
+#part-1 {
+	background-color: #f8e2e2;
+	width: 25%;
+	margin: 10px;
+	padding: 10px;
+}
+
+#part-2 {
+	width: 75%;
+	padding-right: 40px;
+}
+
+/* flexbox div  - part-1 */
+#part-1 h4 {
+	background-color: #a9a9a9;
+	margin: 0px;
+	padding-left: 5px;
+	font-size: 16px;
+}
+
+#part-1 h4:first-child {
+	font-size: 18px;
+}
+
+#part-1 div {
+	text-align: right;
+}
+
+#part-1 p {
+	margin: 8px 0;
+}
+
+#info a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	margin: 5px 0;
+}
+
+/* flexbox div  - part-2 */
+#project-description {
+	justify-content: center;
+}
+
+#work-experience {
+	width: 750px;
+}
+
+#projects p {
+	padding-left: 25px;
+}
+
+#work-experience p {
+	padding-left: 25px;
+}
